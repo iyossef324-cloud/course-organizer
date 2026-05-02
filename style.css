@@ -1,7 +1,5 @@
-/* ===========================
-   General Reset & Base Styles
-   =========================== */
-   * {
+
+*{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -15,7 +13,6 @@ body {
   line-height: 1.6;
 }
 
-/* links */
 a {
   text-decoration: none;
   color: inherit;
@@ -27,10 +24,6 @@ a:hover {
 }
 
 
-
-/* ===========================
-   Header
-   =========================== */
 header {
   background: linear-gradient(90deg, #1e3a8a, #2563eb);
   color: #ffffff;
@@ -77,10 +70,6 @@ header::before {
   100% { left: 150%; }
 }
 
-
-/* ===========================
-   Navigation Bar
-   =========================== */
 nav {
   background: linear-gradient(135deg, #0f172a, #1e293b);
   backdrop-filter: blur(12px);
@@ -159,9 +148,6 @@ nav ul li a.active {
   box-shadow: 0 5px 15px rgba(56, 189, 248, 0.4);
 }
 
-/* ===========================
-   Main Content
-   =========================== */
 
 main {
     max-width: 960px;
@@ -169,9 +155,6 @@ main {
     padding: 0 20px;
 }
 
-/* ===========================
-   Home - Welcome Section
-   =========================== */
 
 
 .welcome-section {
@@ -254,9 +237,6 @@ main {
   }
 }
 
-/* ===========================
-   Home - Cards Section
-    =========================== */
 .cards-section {
   display: flex;
   gap: 30px;
@@ -364,9 +344,6 @@ main {
 }
 
 
-/* ===========================
-   Button
-   =========================== */
 .btn {
   position: relative;
   display: inline-block;
@@ -445,9 +422,7 @@ main {
 .btn {
   pointer-events: auto;
 }
-
-/*        RESET BUTTON           */
-/* ============================= */
+/
 
 .btn {
   position: relative;
@@ -525,9 +500,6 @@ main {
   box-shadow: 0 5px 15px rgba(0,0,0,0.4);
 }
 
-/* ===========================
-   Page Section (courses, add, contact)
-   =========================== */
 .page-section {
   position: relative;
 
@@ -949,9 +921,6 @@ footer:hover::after {
   opacity: 1;
 }
 
-/* ===========================
-   Responsive (Mobile)
-   =========================== */
 
 @media (max-width: 640px) {
 
